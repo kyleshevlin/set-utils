@@ -1,0 +1,44 @@
+{
+  "name": "@kyleshevlin/set-utils",
+  "version": "0.0.0",
+  "description": "a set of set utils",
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "./dist/set-utils.cjs",
+  "module": "./dist/set-utils.module.js",
+  "unpkg": "./dist/set-utils.umd.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "exports": {
+    "require": "./dist/set-utils.cjs",
+    "default": "./dist/set-utils.modern.js"
+  },
+  "types": "./dist/set-utils.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "format": "prettier --write src/**/*.ts",
+    "prerelease": "rm -rf dist && npm run build",
+    "release": "npx np",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "author": "Kyle Shevlin <kyle.a.shevlin@gmail.com> (https://kyleshevlin.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleshevlin/set-utils.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "microbundle": "^0.15.1",
+    "prettier": "^3.0.3",
+    "ts-jest": "^29.1.1"
+  }
+}
