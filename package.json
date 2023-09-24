@@ -1,6 +1,6 @@
 {
   "name": "@kyleshevlin/set-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "a set of set utils",
   "type": "module",
   "source": "src/index.ts",
