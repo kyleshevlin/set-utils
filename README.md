@@ -1,6 +1,6 @@
 # set-utils
 
-Just a set of set utility functions
+Just a set of set utility functions. Oh, and they're typesafe.
 
 ## API
 

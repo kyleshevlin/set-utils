@@ -1,7 +1,7 @@
 {
   "name": "@kyleshevlin/set-utils",
   "version": "0.1.0",
-  "description": "a set of set utils",
+  "description": "a set of typesafe set utility functions",
   "type": "module",
   "source": "src/index.ts",
   "main": "./dist/set-utils.cjs",
