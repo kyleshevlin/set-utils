@@ -15,7 +15,7 @@
     "require": "./dist/set-utils.cjs",
     "default": "./dist/set-utils.modern.js"
   },
-  "types": "./dist/set-utils.d.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
